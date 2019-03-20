@@ -54,7 +54,7 @@ if (!@mysqli_connect(DBHOST, DBUSER, DBPW, DBNAME)) {
         <p>
             Demasia使用世界上最好的语言PHP进行开发，数据库使用的是mysql，因此运行Pikachu你需要提前安装好"PHP+MYSQL+中间件（如apache,nginx等）"的基础环境，<br/>建议在你的测试环境直接使用
         一些集成软件来搭建这些基础环境,比如PHPSTUDY,XAMPP,WAMP等,作为一个搞安全的人,这些东西对你来说应该不是什么难事。<br/>接下来:<br/>
-        -->把下载下来的pikachu文件夹放到web服务器根目录下;<br/>
+        -->把下载下来的demasia文件夹放到web服务器根目录下;<br/>
         -->根据实际情况修改inc/config.inc.php里面的数据库连接配置;<br/>
         -->访问http://x.x.x.x/demasia,会有一个红色的热情提示"欢迎使用,demasia还没有初始化，点击进行初始化安装!",点击即可完成安装。
         </p>
